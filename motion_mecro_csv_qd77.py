@@ -1,7 +1,7 @@
 import chardet
 from openpyxl import Workbook,load_workbook
 from mecro import MotionConfigurator,add_to_address,add_to_bit_address,add_bit_offset,add_hex_offset
-excel_file ='PCB_MOTION_MECRO_MAP_20250608_1.xlsx'
+excel_file ='QD77_MOTION_MECRO_MAP_SAMPLE.xlsx'
 motion = MotionConfigurator(excel_file)
 
 
