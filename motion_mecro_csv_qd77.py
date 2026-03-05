@@ -25,7 +25,7 @@ for j in range(10):
     
     # 1. 워크북 및 워크시트 생성
     
-    program_no= 18
+    program_no= 1
     program_count= j+1
     axis_no = motion.motor_prog.get_axis_no(program_no, program_count)
     scan_cnt = j
